@@ -1,0 +1,52 @@
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+.env
+.venv
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.log
+
+# -----------------
+# PyCharm / JetBrains
+# -----------------
+.idea/*
+!.idea/codeStyles/          # Keep code style settings (optional, team-shared)
+!.idea/runConfigurations/   # Keep run/debug configs (optional, team-shared)
+!.idea/inspectionProfiles/  # Keep inspection profiles (optional)
+
+# -----------------
+# VSCode (just in case)
+# -----------------
+.vscode/
+
+# -----------------
+# OS Files
+# -----------------
+.DS_Store
+Thumbs.db
+
+# -----------------
+# Reports / Test outputs
+# -----------------
+reports/
+Reports/
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+*.db
+*.sqlite
